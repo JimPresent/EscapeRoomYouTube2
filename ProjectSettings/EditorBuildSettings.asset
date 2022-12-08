@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/EscapeRoomMain.unity
+    guid: 95470f6fc736e0341bdf86ef47cbbd4f
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c958f752d9c290b4ca3e68605047946d,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 141ccd0b335f72a4fa0ba07b58de1f2f,
+      type: 2}
