@@ -7,7 +7,8 @@ public class TimerScript : MonoBehaviour
 {
     [SerializeField] private float currentTime;
     [SerializeField] private float displayTime;
-    [SerializeField] private TMP_Text displayText;
+    [SerializeField] private TMP_Text displayTextDoor1;
+    [SerializeField] private TMP_Text displayTextDoor2;
     [SerializeField] private GameObject gameOverPanel;
 
     // Start is called before the first frame update
@@ -25,11 +26,13 @@ public class TimerScript : MonoBehaviour
         if(currentTime < 0)
         {
             gameOverPanel.SetActive(true);
-            displayText.text = "Game Over!";
+            displayTextDoor1.text = "Game Over!";
+            displayTextDoor2.text = "Game Over!";
             Time.timeScale = 0;
         }else
         {
-            displayText.text = displayTime.ToString();
+            displayTextDoor1.text = displayTime.ToString();
+            displayTextDoor2.text = displayTime.ToString();
         }
     }
 

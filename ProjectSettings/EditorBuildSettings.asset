@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
+    path: Assets/MainMenu.unity
+    guid: 8fb512c24a45bf3449f84fa0c74f176b
+  - enabled: 0
     path: Assets/EscapeRoomMain.unity
     guid: 95470f6fc736e0341bdf86ef47cbbd4f
+  - enabled: 0
+    path: Assets/Scenes/EscapeBoatLevel1.unity
+    guid: fa2b362bea914c441902ee983f6c2857
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c958f752d9c290b4ca3e68605047946d,
       type: 2}
